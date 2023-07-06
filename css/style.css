@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Lovelo";
+    src: url("/css/fonts/Lovelo-Black.eot");
+    src: url("/css/fonts/Lovelo-Black.woff") format("woff"),
+         url("/css/fonts/Lovelo-Black.otf") format("opentype");
+  }
+body {
+    background-color: #e6ada3;
+    font-family: 'Lovelo', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
