@@ -13,3 +13,23 @@ p {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
 }
+hr {
+    border: none;
+    border-top: 11px dotted black;
+    
+  }
+.left-side {
+    width: 29%;
+    float: left;
+
+}
+
+.right-side {
+    width: 70%;
+    float: right;
+    border-top: 11px solid black;
+    border-radius: 999em 40px 40px 999em ;
+
+
+    
+}
