@@ -1,23 +1,47 @@
 @font-face {
     font-family: "Lovelo";
-    src: url("/css/fonts/Lovelo-Black.eot");
-    src: url("/css/fonts/Lovelo-Black.woff") format("woff"),
-         url("/css/fonts/Lovelo-Black.otf") format("opentype");
-  }
+    src: url("/assets/fonts/Lovelo-Black.eot");
+    src: url("/assets/fonts/Lovelo-Black.woff") format("woff"),
+        url("/assets/fonts/Lovelo-Black.otf") format("opentype");
+}
+
 body {
     background-color: #e6ada3;
     font-family: 'Lovelo', Arial, sans-serif;
     letter-spacing: 4px;
 }
+
+h1,
+h2 {
+    margin: 1%;
+
+}
+
+h3 {
+    color: #edddda;
+}
+
+h4 {
+    color: #edddda;
+}
+
+h5 {
+    color: #edddda;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
+    font-weight: 200;
 }
+
 hr {
     border: none;
     border-top: 11px dotted black;
-    
-  }
+
+
+}
+
 .left-side {
     width: 29%;
     float: left;
@@ -28,8 +52,74 @@ hr {
     width: 70%;
     float: right;
     border-top: 11px solid black;
-    border-radius: 999em 40px 40px 999em ;
-
-
-    
+    border-radius: 999em 40px 40px 999em;
 }
+
+.circle-wrapper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background-color: #615c5b;
+}
+
+.circle-text {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin: 0;
+}
+
+.circle-text h5 {
+    font-size: 18px;
+    height: 100%;
+    line-height: 1.25;
+    padding: 0;
+    text-align: center;
+}
+
+.circle-text::before {
+    content: "";
+    float: left;
+    height: 100%;
+    width: 50%;
+    shape-outside: polygon(0 0,
+            98% 0,
+            50% 6%,
+            23.4% 17.3%,
+            6% 32.6%,
+            0 50%,
+            6% 65.6%,
+            23.4% 82.7%,
+            50% 94%,
+            98% 100%,
+            0 100%);
+    shape-margin: 4%;
+}
+
+.circle-text h5::before {
+    content: "";
+    float: right;
+    height: 100%;
+    width: 50%;
+    shape-outside: polygon(2% 0%,
+            100% 0%,
+            100% 100%,
+            2% 100%,
+            50% 94%,
+            76.6% 82.7%,
+            94% 65.6%,
+            100% 50%,
+            94% 32.6%,
+            76.6% 17.3%,
+            50% 6%);
+    shape-margin: 4%;
+}
+.circle-wrapper blockquote h6 {
+    bottom: 50px;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 4%;
+  }
