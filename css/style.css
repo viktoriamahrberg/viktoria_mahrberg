@@ -59,7 +59,7 @@ hr {
     width: 250px;
     height: 250px;
     position: relative;
-    background-color: #615c5b;
+    background-color: #000;
     animation: animateme 1500ms linear 0s infinite ;
 
 }
@@ -129,9 +129,9 @@ hr {
 
 
 @keyframes animateme{
-    0%{transform:scale(1);box-shadow: 0 0 0 1px rgba(97,92,91,0.4)}
-    20%{transform:scale(1.2);box-shadow: 0 0 0 3px rgba(97,92,91,0.3)}
-    60%{transform:scale(1.4);box-shadow: 0 0 0 5px rgba(97,92,91,0.2)}
-    80%{transform:scale(1.2);box-shadow: 0 0 0 7px rgba(97,92,91,0.1)}
-    100%{transform:scale(1);box-shadow: 0 0 0 9px rgba(97,92,91,0)}
+    0%{transform:scale(1);box-shadow: 0 0 0 1px rgba(0,0,0,0.4)}
+    20%{transform:scale(1.2);box-shadow: 0 0 0 3px rgba(0,0,0,0.3)}
+    60%{transform:scale(1.4);box-shadow: 0 0 0 5px rgba(0,0,0,0.2)}
+    80%{transform:scale(1.2);box-shadow: 0 0 0 7px rgba(90,0,0,0.1)}
+    100%{transform:scale(1);box-shadow: 0 0 0 9px rgba(0,0,0,,0)}
 }
