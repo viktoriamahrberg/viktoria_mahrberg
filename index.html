@@ -29,37 +29,47 @@
                 <blockquote class="circle-text">
                     <h5>Want to focus on what you're good at and let someone else take care of all the
                         techy stuff?</h5>
-                        
-                    </blockquote>
+
+                </blockquote>
 
             </div>
-                <div class="col">
-                    <h6 class="pr-3">Let me do that tedious job for you (because I don't find it tedious at all)</h6>
-                </div>
-
+            <div class="col">
+                <h6 class="pr-3">Let me do that tedious job for you (because I don't find it tedious at all)</h6>
             </div>
+            
+            <span class="anim"></span>
+       
+            
+
         </div>
-        <script>
-            const ball = document.getElementById("ball");
-            let x = 0;
-            let y = 0;
-            let xSpeed = 4;
-            let ySpeed = 4;
-            function animate() {
-            x += xSpeed;
-            y += ySpeed;
-            if (x + 50 > window.innerWidth || x < 0) {
-               xSpeed = -xSpeed;
-            }
-            if (y + 50 > window.innerHeight || y < 0) {
-               ySpeed = -ySpeed;
-            }
-            ball.style.left = x + "px";
-            ball.style.top = y + "px";
-            requestAnimationFrame(animate);
-         }
-        animate();
-      </script>
+    </div>
+    <script>
+        //         const ball = document.getElementById("ball");
+        //         var timer;
+        // var marginTop=360;
+        // var bottomToTop=true;
+
+
+        //         function animate() {
+        //         const main = document.querySelector('main');
+        //         main.style.width = '400px';
+        //         main.style.height = '600px';
+        //         main.style.backgroundColor = 'black';
+        //         x += xSpeed;
+        //         y += ySpeed;
+        //         if (x + 50 > main.style.width || x < 0) {
+        //            xSpeed = -xSpeed;
+        //         }
+        //         if (y + 50 > main.style.height || y < 0) {
+        //            ySpeed = -ySpeed;
+        //         }
+        //         ball.style.left = x + "px";
+        //         ball.style.top = y + "px";
+        //         requestAnimationFrame(animate);
+        //      }
+        //     animate();
+
+    </script>
 </body>
 
 
