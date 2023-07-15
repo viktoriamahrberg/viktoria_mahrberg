@@ -8,32 +8,37 @@
 body {
     background-color: #e6ada3;
     font-family: 'Lovelo', Arial, sans-serif;
-    letter-spacing: 4px;
+    
 }
 
 h1,
 h2 {
     margin: 1%;
+    letter-spacing: 4px;
+    
 
 }
 
 h3 {
     color: #edddda;
+    letter-spacing: 4px;
 }
 
 h4 {
     color: #edddda;
+    letter-spacing: 4px;
 }
 
 h5 {
     color: #edddda;
     font-family: 'Libre Franklin', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     font-weight: 200;
 }
 
@@ -41,6 +46,7 @@ a {
     font-family: 'Libre Franklin', sans-serif;
     text-transform: uppercase;
     color: #edddda;
+    letter-spacing: 4px;
 }
 
 a::after, a:hover {
@@ -48,6 +54,12 @@ a::after, a:hover {
     text-decoration: none;
 }
 
+.title {
+    letter-spacing: 5px;
+}
+.subtitle {
+    letter-spacing: 5px;
+}
 hr {
     border: none;
     border-top: 11px dotted black;
@@ -83,13 +95,15 @@ hr {
     padding: 0;
     position: relative;
     margin: 0;
+
 }
 
 .circle-text h5 {
     font-size: 16px;
     height: 100%;
-    line-height: 1.4;
+    line-height: 1.6;
     padding: 0;
+    letter-spacing: 2px;
     text-align: center;
 }
 
@@ -138,8 +152,6 @@ hr {
     width: 100%;
     margin: 4%;
   }
-
-
 
 @keyframes animateme{
     0%{transform:scale(1);box-shadow: 0 0 0 1px rgba(0,0,0,0.4)}
