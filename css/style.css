@@ -31,7 +31,7 @@ h4 {
 
 h5 {
     color: #edddda;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Lovelo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -43,14 +43,15 @@ p {
 }
 
 a {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Lovelo', sans-serif;
     text-transform: uppercase;
     color: #edddda;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    font-size: 10px;
 }
 
 a::after, a:hover {
-    color: #000;
+    color: #ffffff;
     text-decoration: none;
 }
 
