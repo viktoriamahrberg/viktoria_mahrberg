@@ -27,12 +27,25 @@ h4 {
 
 h5 {
     color: #edddda;
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     font-weight: 200;
+}
+
+a {
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    color: #edddda;
+}
+
+a::after, a:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 hr {
@@ -73,9 +86,9 @@ hr {
 }
 
 .circle-text h5 {
-    font-size: 18px;
+    font-size: 16px;
     height: 100%;
-    line-height: 1.25;
+    line-height: 1.4;
     padding: 0;
     text-align: center;
 }
