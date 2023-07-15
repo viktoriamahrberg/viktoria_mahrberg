@@ -14,8 +14,7 @@ body {
 h1,
 h2 {
     margin: 1%;
-    letter-spacing: 4px;
-    
+    letter-spacing: 4px;    
 
 }
 
@@ -34,6 +33,7 @@ h5 {
     font-family: 'Lovelo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 12px;
 }
 
 p {
@@ -66,12 +66,12 @@ hr {
     border-top: 11px dotted black;
 
 
+
 }
 
 .left-side {
     width: 36%;
     float: left;
-
 }
 
 .right-side {
@@ -79,6 +79,7 @@ hr {
     float: right;
     border-top: 11px solid black;
     border-radius: 999em 40px 40px 999em;
+
 }
 
 .circle-wrapper {
@@ -99,7 +100,7 @@ hr {
 
 }
 
-.circle-text h5 {
+.circle-text h3 {
     font-size: 16px;
     height: 100%;
     line-height: 1.6;
@@ -127,7 +128,7 @@ hr {
     shape-margin: 4%;
 }
 
-.circle-text h5::before {
+.circle-text h3::before {
     content: "";
     float: right;
     height: 100%;
@@ -163,5 +164,8 @@ hr {
 }
 footer {
     background-color: #000;
-    color:#e6ada3;
+    color:#edddda;
+}
+footer p {
+    font-size: 11px;
 }
