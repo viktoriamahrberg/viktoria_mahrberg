@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: #e6ada3;
+    background-image: linear-gradient(to right, #f04c3a, #e6ada3);
     font-family: 'Lovelo', Arial, sans-serif;
+
     
 }
 
@@ -64,8 +65,6 @@ a::after, a:hover {
 hr {
     border: none;
     border-top: 11px dotted black;
-
-
 
 }
 
@@ -162,6 +161,19 @@ hr {
     80%{transform:scale(1.2);box-shadow: 0 0 0 7px rgba(90,0,0,0.1)}
     100%{transform:scale(1);box-shadow: 0 0 0 9px rgba(0,0,0,,0)}
 }
+
+img {
+    width: 100px;
+}
+.apota-logo {
+    height: 50px;
+    width: auto;
+}
+.kiosko-logo {
+    height: 50px;
+    width: auto;
+}
+
 footer {
     background-color: #000;
     color:#edddda;
