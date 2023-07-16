@@ -6,7 +6,8 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #f04c3a, #e6ada3);
+    /* background-image: linear-gradient(to right, #f04c3a, #e6ada3); */
+    background-color: #e6ada3;
     font-family: 'Lovelo', Arial, sans-serif;
 
     
