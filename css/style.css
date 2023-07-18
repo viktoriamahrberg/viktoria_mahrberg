@@ -5,11 +5,15 @@
         url("/assets/fonts/Lovelo-Black.otf") format("opentype");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    /* background-image: linear-gradient(to right, #f04c3a, #e6ada3); */
+    /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
     background-color: #e6ada3;
+    /* background-color: #fff01f; */
     font-family: 'Lovelo', Arial, sans-serif;
-
     
 }
 
@@ -29,7 +33,9 @@ h4 {
     color: #edddda;
     letter-spacing: 4px;
 }
-
+.small-h4 {
+    font-size: 16px;
+}
 h5 {
     color: #edddda;
     font-family: 'Lovelo', sans-serif;
@@ -37,6 +43,7 @@ h5 {
     letter-spacing: 4px;
     font-size: 12px;
 }
+
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -182,3 +189,41 @@ footer {
 footer p {
     font-size: 11px;
 }
+
+
+
+
+
+  .line {
+    width: 100vw;
+  }
+  .left, .right {
+    width: 50vw;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .left {
+    color:pink;
+    transform: skew(0deg, -15deg);
+  }
+  .right {
+    color: black;
+    transform: skew(0deg, 15deg);
+  }
+  .left .content {
+    width: 100vw;
+    text-align: center;
+  }
+  .right .content {
+    width: 100vw;
+    text-align: center;
+    transform: translate(-50vw);
+  }
+  span {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: .8;
+    transition: ease-out .6s;
+  }
