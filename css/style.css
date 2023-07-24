@@ -11,7 +11,7 @@
 }
 body {
     /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
-    background-color: #e6ada3;
+    background-color: #ffffff;
     /* background-color: #fff01f; */
     font-family: 'Lovelo', Arial, sans-serif;
     
@@ -76,6 +76,7 @@ hr {
 
 }
 
+/* Horizontal line */
 .left-side {
     width: 36%;
     float: left;
@@ -86,16 +87,16 @@ hr {
     float: right;
     border-top: 11px solid black;
     border-radius: 999em 40px 40px 999em;
-
 }
 
+/* Circle */
+/* https://codepen.io/Vikaspatel/pen/rqKWjq */
 .circle-wrapper {
     width: 250px;
     height: 250px;
     position: relative;
     background-color: #000;
     animation: animateme 1500ms linear 0s infinite ;
-
 }
 
 .circle-text {
@@ -104,7 +105,6 @@ hr {
     padding: 0;
     position: relative;
     margin: 0;
-
 }
 
 .circle-text h3 {
@@ -153,6 +153,7 @@ hr {
             50% 6%);
     shape-margin: 4%;
 }
+
 .circle-wrapper blockquote h6 {
     bottom: 50px;
     font-size: 15px;
@@ -167,25 +168,47 @@ hr {
     20%{transform:scale(1.2);box-shadow: 0 0 0 3px rgba(0,0,0,0.3)}
     60%{transform:scale(1.4);box-shadow: 0 0 0 5px rgba(0,0,0,0.2)}
     80%{transform:scale(1.2);box-shadow: 0 0 0 7px rgba(90,0,0,0.1)}
-    100%{transform:scale(1);box-shadow: 0 0 0 9px rgba(0,0,0,,0)}
+    100%{transform:scale(1);box-shadow: 0 0 0 9px rgba(0,0,0,0)}
 }
 
+.text-block{
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+
+}
+
+@keyframes an{
+    from{
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
+
+/* Clients logos */
 img {
     width: 100px;
 }
+
 .apota-logo {
     height: 50px;
     width: auto;
 }
+
 .kiosko-logo {
     height: 50px;
     width: auto;
 }
 
+/* Footer */
 footer {
     background-color: #000;
     color:#edddda;
 }
+
 footer p {
     font-size: 11px;
 }
@@ -193,7 +216,7 @@ footer p {
 
 
 
-
+/* 
   .line {
     width: 100vw;
   }
@@ -221,9 +244,14 @@ footer p {
   }
   span {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lovelo', sans-serif;
     font-size: 10vw;
     text-transform: uppercase;
     line-height: .8;
     transition: ease-out .6s;
-  }
+  } */
+
+
+
+
+
