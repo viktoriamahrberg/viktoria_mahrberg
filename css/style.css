@@ -14,25 +14,30 @@ body {
     /* background-color: rgb(255,232,1); */
     background-color: #ececec;
     /* background-color: #fff01f; */
-    font-family: 'Lovelo', Arial, sans-serif;
+    margin: 0;
     
 }
+
+
 
 h1,
 h2 {
     margin: 1%;
     letter-spacing: 4px;    
-
 }
+
 a > h1 {
     color: #000;
 }
+
 a > h2 {
     color: #000;
 }
+
 a > h2:hover {
     color: #000;
 }
+
 a > h1:hover {
     color: #000;
 }
