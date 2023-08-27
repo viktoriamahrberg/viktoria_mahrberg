@@ -44,12 +44,15 @@ a > h1:hover {
 
 
 h3 {
-    color: #24e8ab;
+    color: #e93f6f;
     letter-spacing: 4px;
+    font-family: 'Lovelo', sans-serif;
+    font-size: 1.5vw;
 }
 
 h4 {
-    color:#24e8ab;
+    color:#000000;
+    font-family: 'Lovelo', sans-serif;
     letter-spacing: 4px;
 }
 .small-h4 {
@@ -122,105 +125,6 @@ hr {
     border-radius: 999em 40px 40px 999em;
 }
 
-/* Circle */
-/* https://codepen.io/Vikaspatel/pen/rqKWjq */
-.circle-wrapper {
-    width: 250px;
-    height: 250px;
-    position: relative;
-    background-color: #000;
-    animation: animateme 1500ms linear 0s infinite ;
-}
-
-.circle-text {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    position: relative;
-    margin: 0;
-}
-
-.circle-text h3 {
-    font-size: 16px;
-    height: 100%;
-    line-height: 1.6;
-    padding: 0;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-.circle-text::before {
-    content: "";
-    float: left;
-    height: 100%;
-    width: 50%;
-    shape-outside: polygon(0 0,
-            98% 0,
-            50% 6%,
-            23.4% 17.3%,
-            6% 32.6%,
-            0 50%,
-            6% 65.6%,
-            23.4% 82.7%,
-            50% 94%,
-            98% 100%,
-            0 100%);
-    shape-margin: 4%;
-}
-
-.circle-text h3::before {
-    content: "";
-    float: right;
-    height: 100%;
-    width: 50%;
-    shape-outside: polygon(2% 0%,
-            100% 0%,
-            100% 100%,
-            2% 100%,
-            50% 94%,
-            76.6% 82.7%,
-            94% 65.6%,
-            100% 50%,
-            94% 32.6%,
-            76.6% 17.3%,
-            50% 6%);
-    shape-margin: 4%;
-}
-
-.circle-wrapper blockquote h6 {
-    bottom: 50px;
-    font-size: 15px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin: 4%;
-  }
-
-@keyframes animateme{
-    0%{transform:scale(1);box-shadow: 0 0 0 1px rgba(0,0,0,0.4)}
-    20%{transform:scale(1.2);box-shadow: 0 0 0 3px rgba(0,0,0,0.3)}
-    60%{transform:scale(1.4);box-shadow: 0 0 0 5px rgba(0,0,0,0.2)}
-    80%{transform:scale(1.2);box-shadow: 0 0 0 7px rgba(90,0,0,0.1)}
-    100%{transform:scale(1);box-shadow: 0 0 0 9px rgba(0,0,0,0)}
-}
-
-.text-block{
-    animation: an 1s ease-out 1 both;
-    display: inline-block;
-
-}
-
-@keyframes an{
-    from{
-        opacity: 0;
-        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
-    }
-    to{
-        opacity: 1;
-        transform: perspective(500px) translate3d(0, 0, 0);
-    }
-}
-
 /* Clients logos */
 img {
     width: 100px;
@@ -285,6 +189,44 @@ footer p {
   } */
 
 
+  
 
+/* Sliding text effect */
+.wrap {
+    margin-top: 15vw;
+}
+.line {
+  width: 100vw;
+}
+.left, .right {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+.left {
+  color:pink;
+  transform: skew(0deg, -15deg);
+}
+.right {
+  color: #e93f6f;
+  transform: skew(0deg, 15deg);
+}
+.left .content {
+  width: 100vw;
+  text-align: center;
+}
+.right .content {
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
+}
+span {
+  display: inline-block;
+  font-family: "Lovelo";
+  font-size: 7vw;
+  text-transform: uppercase;
+  line-height: .95;
+  transition: ease-out .6s;
+}
 
 
