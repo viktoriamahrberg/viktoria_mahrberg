@@ -11,15 +11,10 @@
 }
 body {
     /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
-    /* background-color: rgb(255,232,1); */
     background-color: #ececec;
-    /* background-color: #fff01f; */
     margin: 0;
     
 }
-
-
-
 h1,
 h2 {
     margin: 1%;
@@ -60,13 +55,12 @@ h4 {
     color: #000;
 }
 h5 {
-    color: #24e8ab;
+    color: pink;
     font-family: 'Lovelo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 12px;
 }
-
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -87,6 +81,9 @@ a::after, a:hover {
     color: #ffffff;
     text-decoration: none;
 }
+.italic {
+    font-style: italic;
+}
 
 .title {
     letter-spacing: 5px;
@@ -105,7 +102,6 @@ hr {
     width: 36%;
     float: left;
 }
-
 .right-side {
     width: 63%;
     float: right;
@@ -117,7 +113,6 @@ hr {
     width: 100%;
     float: left;
 }
-
 .right-side-small {
     width: 100%;
     float: right;
@@ -125,71 +120,6 @@ hr {
     border-radius: 999em 40px 40px 999em;
 }
 
-/* Clients logos */
-img {
-    width: 100px;
-}
-
-.apota-logo {
-    height: 50px;
-    width: auto;
-}
-
-.kiosko-logo {
-    height: 50px;
-    width: auto;
-}
-
-/* Footer */
-footer {
-    background-color: #000;
-    color:#edddda;
-}
-
-footer p {
-    font-size: 11px;
-}
-
-
-
-
-/* 
-  .line {
-    width: 100vw;
-  }
-  .left, .right {
-    width: 50vw;
-    overflow: hidden;
-    display: inline-block;
-  }
-  .left {
-    color:pink;
-    transform: skew(0deg, -15deg);
-  }
-  .right {
-    color: black;
-    transform: skew(0deg, 15deg);
-  }
-  .left .content {
-    width: 100vw;
-    text-align: center;
-  }
-  .right .content {
-    width: 100vw;
-    text-align: center;
-    transform: translate(-50vw);
-  }
-  span {
-    display: inline-block;
-    font-family: 'Lovelo', sans-serif;
-    font-size: 10vw;
-    text-transform: uppercase;
-    line-height: .8;
-    transition: ease-out .6s;
-  } */
-
-
-  
 
 /* Sliding text effect */
 .wrap {
@@ -229,4 +159,27 @@ span {
   transition: ease-out .6s;
 }
 
+/* Clients logos */
+img {
+    width: 100px;
+}
 
+.apota-logo {
+    height: 50px;
+    width: auto;
+}
+
+.kiosko-logo {
+    height: 50px;
+    width: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color:#edddda;
+}
+
+footer p {
+    font-size: 11px;
+}
