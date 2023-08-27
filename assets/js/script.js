@@ -22,10 +22,6 @@ jQuery(document).ready(function () {
     
 });
 
-
-
-
-
 window.addEventListener('mousemove', handleMouseMove);
 window.addEventListener('resize', handleWindowResize);
 
