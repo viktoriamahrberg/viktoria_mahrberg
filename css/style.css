@@ -13,6 +13,7 @@ body {
     /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
     background-color: #ececec;
     margin: 0;
+    font-size: 1.5vw;
     
 }
 h1,
@@ -161,7 +162,7 @@ span {
 
 /* Clients logos */
 img {
-    width: 100px;
+    width: 90px;
 }
 
 .apota-logo {
@@ -193,5 +194,16 @@ footer p {
     }
     h3 {
         font-size: 2vw;
+    }
+}
+@media screen and (max-width: 660px) {
+    img {
+        width: 70%;
+    }
+    .apota-logo {
+        height: 30px;
+    }
+    .kiosko-logo {
+        height: 30px;
     }
 }
