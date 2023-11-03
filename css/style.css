@@ -13,7 +13,7 @@ body {
     /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
     background-color: #ececec;
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     
 }
 h1,
@@ -60,7 +60,7 @@ h5 {
     font-family: 'Lovelo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 12px;
+    font-size: 1vh;
 }
 
 p {
@@ -193,12 +193,19 @@ footer p {
         font-size: 3vw;
     }
     h3 {
+        font-size: 2.5vw;
+    }
+    .small-h4 {
+        font-size: 1.8vw;
+    }
+    body {
+
         font-size: 2vw;
     }
 }
 @media screen and (max-width: 660px) {
     img {
-        width: 70%;
+        width: 95%;
     }
     .apota-logo {
         height: 30px;
@@ -206,4 +213,11 @@ footer p {
     .kiosko-logo {
         height: 30px;
     }
+   
+}
+@media screen and (max-width: 470px) {
+.footer-link {
+    margin: 5px !important;
+}
+   
 }
