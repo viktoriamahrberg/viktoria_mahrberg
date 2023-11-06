@@ -12,7 +12,7 @@
 
 body {
     /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
-    background-color: #ececec;
+    background-color: #969690;
     margin: 0;
     font-size: 1.4vw;
     
@@ -41,7 +41,7 @@ a > h1:hover {
 
 
 h3 {
-    color: #e93f6f;
+    color: pink;
     letter-spacing: 4px;
     font-family: 'Lovelo', sans-serif;
     font-size: 1.5vw;
@@ -80,7 +80,7 @@ a {
 }
 
 a::after, a:hover {
-    color: #ffffff;
+    color: pink;
     text-decoration: none;
 }
 .italic {
@@ -182,7 +182,7 @@ footer {
     color:#edddda;
 }
 
-footer p {
+footer a {
     font-size: 11px;
 }
 
@@ -225,5 +225,25 @@ footer p {
 .footer-link {
     margin: 5px !important;
 }
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-size: 4vw;
+}
+h3 {
+    font-size: 3vw;
+}
+.small-h4 {
+    font-size: 2.5vw;
+}
+body {
+
+    font-size: 2.5vw;
+}
+footer a {
+    font-size: 9px;
+}
+
    
 }
