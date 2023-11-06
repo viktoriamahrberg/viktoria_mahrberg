@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     /* background-image: linear-gradient(to bottom, #f04c3a, #ffffff); */
     background-color: #ececec;
@@ -202,10 +203,15 @@ footer p {
 
         font-size: 2vw;
     }
+    .wrap {
+        margin-top: 25vw;
+    }
 }
 @media screen and (max-width: 660px) {
+
+
     img {
-        width: 95%;
+        width: 100%;
     }
     .apota-logo {
         height: 30px;
