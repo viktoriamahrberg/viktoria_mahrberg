@@ -163,7 +163,7 @@ span {
 
 /* Clients logos */
 img {
-    width: 90px;
+    width: 100px;
 }
 
 .apota-logo {
@@ -206,12 +206,15 @@ footer a {
     .wrap {
         margin-top: 25vw;
     }
+    footer p {
+        font-size: 9px;
+    }
 }
-@media screen and (max-width: 660px) {
 
 
+@media screen and (max-width: 690px) {
     img {
-        width: 100%;
+        width: 80px;
     }
     .apota-logo {
         height: 30px;
@@ -225,29 +228,30 @@ footer a {
     }
    
 }
+@media screen and (max-width: 550px) {
+    img {
+        width: 70px;
+    }
+}
 @media screen and (max-width: 470px) {
-.footer-link {
-    margin: 5px !important;
-}
-h1 {
-    font-size: 5vw;
-}
-h2 {
-    font-size: 4vw;
-}
-h3 {
-    font-size: 3vw;
-}
-.small-h4 {
-    font-size: 2.5vw;
-}
-footer a {
-    font-size: 9px;
-}
-body {
-
-    font-size: 3vw;
-}
-
+    .footer-link {
+        margin: 5px !important;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }   
+    .small-h4 { 
+        font-size: 2.5vw;
+    }
+  
+    body {
+        font-size: 3vw;
+    }
    
 }
