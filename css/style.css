@@ -181,6 +181,9 @@ footer {
     background-color: #000;
     color:#edddda;
 }
+.text-copyright {
+    font-size: 8px;
+}
 
 footer a {
     font-size: 11px;
@@ -233,6 +236,11 @@ footer a {
         width: 70px;
     }
 }
+@media screen and (max-width: 510px) {
+    img {
+        width: 60px;
+    }
+}
 @media screen and (max-width: 470px) {
     .footer-link {
         margin: 5px !important;
@@ -252,6 +260,9 @@ footer a {
   
     body {
         font-size: 3vw;
+    }
+    img {
+        width: 50px;
     }
    
 }
