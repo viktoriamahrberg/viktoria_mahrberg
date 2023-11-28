@@ -41,7 +41,7 @@ a > h1:hover {
 
 
 h3 {
-    color: pink;
+    color: #f2e521;
     letter-spacing: 4px;
     font-family: 'Lovelo', sans-serif;
     font-size: 1.5vw;
@@ -57,7 +57,7 @@ h4 {
     color: #000;
 }
 h5 {
-    color: pink;
+    color: #f2e521;
     font-family: 'Lovelo', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -80,7 +80,7 @@ a {
 }
 
 a::after, a:hover {
-    color: pink;
+    color: #f2e521;
     text-decoration: none;
 }
 .italic {
@@ -136,11 +136,11 @@ hr {
   display: inline-block;
 }
 .left {
-  color:pink;
+  color:#f2e521;
   transform: skew(0deg, -15deg);
 }
 .right {
-  color: #e93f6f;
+  color: #000;
   transform: skew(0deg, 15deg);
 }
 .left .content {
